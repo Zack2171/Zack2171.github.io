@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6490,13 +6491,23 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
-.main {
+header {
   color: #8d021f; }
+
+.nav {
+  background-color: #c9e4ea;
+  font-family: "Raleway", helvetica, sans;
+  font-size: 38px; }
 
 #banner {
   position: relative;
   background: url("../img/banner.jpeg");
-  min-height: 850px; }
+  background-size: cover;
+  background-position: center top;
+  min-height: 850px;
+  box-sizing: border-box;
+  height: 100vh;
+  padding-top: 10vh; }
   #banner .primary-overlay {
     background: rgba(141, 2, 31, 0.5);
     position: absolute;
@@ -6508,7 +6519,11 @@ a.text-dark:hover, a.text-dark:focus {
     color: #c9e4ea;
     font-family: "Open Sans", helvetica, arial, sans; }
 
-.nav {
-  background-color: #c9e4ea;
-  font-family: "Raleway", helvetica, sans;
-  font-size: 38px; }
+#banner::after {
+  bottom: 10vh;
+  color: #fff;
+  content: "﹀";
+  font-size: 36px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0); }
