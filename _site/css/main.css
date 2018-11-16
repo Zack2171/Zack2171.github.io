@@ -6545,6 +6545,10 @@ header {
     padding-top: 20px; }
   .footer-content li {
     display: inline-block;
-    width: 16px;
-    height: auto;
-    padding: 150px; }
+    padding: 55px; }
+
+h3 {
+  font-family: "Open Sans", helvetica, arial, sans; }
+
+span {
+  font-family: "Open Sans", helvetica, arial, sans; }

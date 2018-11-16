@@ -15,15 +15,21 @@
   }
 
   ul {
-    min-width: 696px;
+  min-width: 696px;
 	list-style: none;
 	padding-top: 20px;
   }
 
   li {
     display: inline-block;
-    width:16px; // adjust
-    height:auto; // adjust
-    padding: 150px; //adjust
+    padding: 55px;
   }
+}
+
+h3 {
+  font-family: $font-secondary;
+}
+
+span {
+  font-family: $font-secondary;
 }
