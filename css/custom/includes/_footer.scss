@@ -1,0 +1,29 @@
+.footer-content {
+  background-color: $secondary;
+
+  img {
+    display: block;
+    max-width:275px;
+    max-height:120px;
+    width: auto;
+    height: auto;
+  }
+
+  .inner {
+    display: table;
+    margin: 0 auto;
+  }
+
+  ul {
+    min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+  }
+
+  li {
+    display: inline-block;
+    width:16px; // adjust
+    height:auto; // adjust
+    padding: 150px; //adjust
+  }
+}
