@@ -6518,11 +6518,6 @@ header {
     color: #c9e4ea;
     font-family: "Open Sans", helvetica, arial, sans; }
 
-p {
-  margin-left: auto;
-  margin-right: auto;
-  display: block; }
-
 .footer-content {
   background-color: #c9e4ea; }
   .footer-content img {
