@@ -6546,7 +6546,7 @@ h4 {
 
 .about-landing {
   background: url(../img/iceburg.jpeg);
-  height: 600px;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -6556,5 +6556,21 @@ h4 {
     color: #c66a67; }
 
 .scroll {
-  height: 800px;
+  height: 100vh;
   background-color: #c66a67; }
+  .scroll h4 {
+    text-align: center; }
+
+.div-3 {
+  background: url(../img/aspen.jpeg);
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .div-3 h4 {
+    text-align: center;
+    font-family: "Raleway", helvetica, sans;
+    font-size: 30px;
+    color: #c66a67;
+    font-weight: bolder; }
