@@ -6541,4 +6541,8 @@ h3 {
   font-family: "Open Sans", helvetica, arial, sans; }
 
 span {
+  text-align: center;
   font-family: "Open Sans", helvetica, arial, sans; }
+
+.about-landing {
+  background-color: #c9e4ea; }
