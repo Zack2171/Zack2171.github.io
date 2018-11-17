@@ -1,15 +1,17 @@
  .about-landing {
    background: url(../img/iceburg.jpeg);
-   position: relative;
+   height: 600px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
    background-size: cover;
-   background-position: center top;
-   min-height: 700px;
-   box-sizing: border-box;
-   height: 100vh;
-   padding-top: 10vh;
 
    h3 {
      text-align: center;
      color: $primary;
    }
+}
+.scroll {
+  height: 800px;
+  background-color: $primary;
 }

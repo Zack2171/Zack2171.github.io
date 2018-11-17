@@ -6522,8 +6522,8 @@ header {
   background-color: #c9e4ea; }
   .footer-content img {
     display: block;
-    max-width: 215px;
-    max-height: 70px;
+    max-width: 245px;
+    max-height: 90px;
     width: auto;
     height: auto; }
   .footer-content .inner {
@@ -6535,7 +6535,7 @@ header {
     display: block; }
   .footer-content li {
     display: inline-block;
-    padding: 55px; }
+    padding: 85px; }
 
 h3 {
   font-family: "Open Sans", helvetica, arial, sans; }
@@ -6546,13 +6546,15 @@ h4 {
 
 .about-landing {
   background: url(../img/iceburg.jpeg);
-  position: relative;
-  background-size: cover;
-  background-position: center top;
-  min-height: 700px;
-  box-sizing: border-box;
-  height: 100vh;
-  padding-top: 10vh; }
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
   .about-landing h3 {
     text-align: center;
     color: #c66a67; }
+
+.scroll {
+  height: 800px;
+  background-color: #c66a67; }
