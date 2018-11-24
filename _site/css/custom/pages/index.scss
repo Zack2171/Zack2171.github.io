@@ -1,14 +1,10 @@
-.full-hero {
-
-}
-
 .hero-home {
 
 }
 
 #banner{
   position: relative;
-  background: url('../img/banner.jpeg');
+  background: url('../img/beach-bird-s-eye-view-blue-water-1236504.jpg');
   background-size: cover;
   background-position: center top;
   min-height: 850px;
@@ -18,7 +14,6 @@
 
 
   .primary-overlay{
-    background: rgba(141,2,31,0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -33,14 +28,15 @@
 
 .hero {
   display: flex;
+  height: auto;
+  background: $primary;
+  font-family: $font-secondary;
 }
 
 /* STYLES FOR PERSPECTIVE TEXT */
 
-/*
-** Change this if you need to modify
-** the amount of lines displayed
-*/
+/*lines displayed*/
+
 $total-lines: 2;
 
 

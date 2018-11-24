@@ -6500,7 +6500,7 @@ header {
 
 #banner {
   position: relative;
-  background: url("../img/banner.jpeg");
+  background: url("../img/beach-bird-s-eye-view-blue-water-1236504.jpg");
   background-size: cover;
   background-position: center top;
   min-height: 850px;
@@ -6508,7 +6508,6 @@ header {
   height: 100vh;
   padding-top: 10vh; }
   #banner .primary-overlay {
-    background: rgba(141, 2, 31, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -6519,13 +6518,13 @@ header {
     font-family: "Open Sans", helvetica, arial, sans; }
 
 .hero {
-  display: flex; }
+  display: flex;
+  height: auto;
+  background: #c66a67;
+  font-family: "Open Sans", helvetica, arial, sans; }
 
 /* STYLES FOR PERSPECTIVE TEXT */
-/*
-** Change this if you need to modify
-** the amount of lines displayed
-*/
+/*lines displayed*/
 /*
 ** Leave these unless you want
 ** to open a whole can of worms
