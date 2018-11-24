@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6513,73 +6514,22 @@ header {
     left: 0;
     width: 100%;
     height: 100%; }
-  #banner h1 {
+  #banner .primary-overlay::after {
     color: #c9e4ea;
-    font-family: "Open Sans", helvetica, arial, sans; }
+    font-size: 65px;
+    content: "﹀";
+    bottom: 5vh;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0); }
 
 .hero {
-  display: flex;
-  height: auto;
-  background: #c66a67;
-  font-family: "Open Sans", helvetica, arial, sans; }
-
-/* STYLES FOR PERSPECTIVE TEXT */
-/*lines displayed*/
-/*
-** Leave these unless you want
-** to open a whole can of worms
-*/
-/*
-** Apply styles to the parent element
-*/
-.Words {
-  margin: 0 auto;
-  padding: 80px 0;
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-size: 80px;
-  font-weight: 900;
-  letter-spacing: -2px;
-  text-transform: uppercase;
-  transform: translate3d(0, 0, 0);
-  -webkit-font-smoothing: antialiased;
-  -webkit-font-kerning: normal;
-  -webkit-text-size-adjust: 100%; }
-
-/*
-** Apply common styles to each line of text
-*/
-.Words-line {
-  height: 80px;
-  overflow: hidden;
-  position: relative; }
-  .Words-line:nth-child(odd) {
-    transform: skew(60deg, -30deg) scaleY(0.66667); }
-  .Words-line:nth-child(even) {
-    transform: skew(0deg, -30deg) scaleY(1.33333); }
-  .Words-line:nth-child(1) {
-    left: 29px; }
-  .Words-line:nth-child(2) {
-    left: 58px; }
-  .Words-line:nth-child(3) {
-    left: 87px; }
-
-/*
-** Fine-grained text styles
-*/
-p {
-  height: 80px;
-  line-height: 75px;
-  padding: 0 10px;
-  transition: all .4s ease-in-out;
-  transform: translate3d(0, 0, 0);
-  vertical-align: top;
-  white-space: nowrap; }
-
-/*
-** The hover interaction
-*/
-.Words:hover p {
-  transform: translate3d(0, -80px, 0); }
+  background-image: url("../img/asia-background-balance-784928.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: inline-block; }
+  .hero .hero-content {
+    background: #c9e4ea; }
 
 .footer-content {
   background-color: #c9e4ea; }
