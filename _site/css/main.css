@@ -6499,6 +6499,11 @@ header {
   font-family: "Raleway", helvetica, sans;
   font-size: 38px; }
 
+.landing .landing-text {
+  font-family: "Open Sans", helvetica, arial, sans;
+  color: #c9e4ea;
+  text-transform: capitalize; }
+
 #banner {
   position: relative;
   background: url("../img/beach-bird-s-eye-view-blue-water-1236504.jpg");
