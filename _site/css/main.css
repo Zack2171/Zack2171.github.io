@@ -6496,11 +6496,11 @@ header {
 
 .nav {
   background-color: #c9e4ea;
-  font-family: "Raleway", helvetica, sans;
+  font-family: "Open Sans", helvetica, arial, sans;
   font-size: 38px; }
 
 .landing .landing-text {
-  font-family: "Open Sans", helvetica, arial, sans;
+  font-family: "Raleway", helvetica, sans;
   color: #c9e4ea;
   text-transform: capitalize; }
 
