@@ -1,5 +1,12 @@
 // Custom variables
-$primary: #c66a67; // nantucket red
+
+//colors for the light scheme
+$primary: #cc6666; // nantucket red
 $secondary: #c9e4ea; // ice blue
+
+//colors for the dark scheme
+$primary-d:  rgba(0,102,102,0.75); // blue
+$secondary-d: #ffffff; // white
+
 $font-primary: 'Raleway', helvetica, sans;
 $font-secondary: 'Open Sans', helvetica, arial, sans;

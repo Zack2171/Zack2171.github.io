@@ -44,11 +44,16 @@
 .hero {
   background-image: url('../img/asia-background-balance-784928.jpg');
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
   display: inline-block;
+  padding: 20px;
 
+  .hero-jumbotron {
+    background-color: $primary-d;
+  }
 
-  .hero-content {
-    background: $secondary;
+  .jumbotron-content {
+    font-family: $font-secondary;
+    color: $secondary-d;
   }
 }
