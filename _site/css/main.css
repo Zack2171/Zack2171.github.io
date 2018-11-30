@@ -6546,7 +6546,10 @@ header {
     padding: 25px;
     margin: auto;
     background: rgba(0, 102, 102, 0.75);
-    color: white; }
+    color: white;
+    font-family: "Open Sans", helvetica, arial, sans; }
+  .hero .text-box-content {
+    text-align: center; }
 
 .footer-content {
   background-color: #c9e4ea; }
