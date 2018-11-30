@@ -51,7 +51,8 @@
 
   .hero-jumbotron {
     background-color: $primary-d;
-    border: 1px solid gold;
+    border: 1px solid;
+    border-color: rgba(0,0,0,.75);  /* Mixin needed */
   }
 
   .jumbotron-content {
@@ -63,16 +64,17 @@
   width: 475px;
   height: 475px;
   padding: 25px;
-  border-radius: 5px;
-  border: 1px solid gold;
+  border-radius: 45px;
+  border: 1px solid;
+  border-color: rgba(0,0,0,.75);  /* Mixin needed */ 
   margin: auto;
   background: $primary-d;
-  color: white;
-  font-family: $font-secondary;
   }
 
   .text-box-content {
   text-align: center;
+  color: white;
+  font-family: $font-secondary;
   }
 
 }
