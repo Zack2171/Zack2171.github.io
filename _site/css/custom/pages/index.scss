@@ -51,6 +51,7 @@
 
   .hero-jumbotron {
     background-color: $primary-d;
+    border: 1px solid gold;
   }
 
   .jumbotron-content {
@@ -59,9 +60,11 @@
   }
 
   .text-box {
-  width: 300px;
-  height: 300px;
+  width: 475px;
+  height: 475px;
   padding: 25px;
+  border-radius: 5px;
+  border: 1px solid gold;
   margin: auto;
   background: $primary-d;
   color: white;
@@ -69,7 +72,7 @@
   }
 
   .text-box-content {
-  text-align: center; 
+  text-align: center;
   }
 
 }

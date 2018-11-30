@@ -6536,14 +6536,17 @@ header {
   display: inline-block;
   padding: 20px; }
   .hero .hero-jumbotron {
-    background-color: rgba(0, 102, 102, 0.75); }
+    background-color: rgba(0, 102, 102, 0.75);
+    border: 1px solid gold; }
   .hero .jumbotron-content {
     font-family: "Open Sans", helvetica, arial, sans;
     color: #ffffff; }
   .hero .text-box {
-    width: 300px;
-    height: 300px;
+    width: 475px;
+    height: 475px;
     padding: 25px;
+    border-radius: 5px;
+    border: 1px solid gold;
     margin: auto;
     background: rgba(0, 102, 102, 0.75);
     color: white;
