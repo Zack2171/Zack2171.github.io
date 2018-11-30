@@ -6540,6 +6540,13 @@ header {
   .hero .jumbotron-content {
     font-family: "Open Sans", helvetica, arial, sans;
     color: #ffffff; }
+  .hero .text-box {
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    margin: auto;
+    background: rgba(0, 102, 102, 0.75);
+    color: white; }
 
 .footer-content {
   background-color: #c9e4ea; }
