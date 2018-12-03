@@ -44,7 +44,9 @@
 
 .hero {
   background-image: url('../img/asia-background-balance-784928.jpg');
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 110vh;
   display: inline-block;
   padding: 20px;
@@ -66,7 +68,7 @@
   padding: 25px;
   border-radius: 45px;
   border: 1px solid;
-  border-color: rgba(0,0,0,.75);  /* Mixin needed */ 
+  border-color: rgba(0,0,0,.75);  /* Mixin needed */
   margin: auto;
   background: $primary-d;
   }

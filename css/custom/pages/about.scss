@@ -1,14 +1,10 @@
  .about-landing {
-   background: url(../img/iceburg.jpeg);
+   background-color: black;
    height: 100vh;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
 
-   h3 {
+   h1 {
      text-align: center;
-     color: $primary;
+     font-family: $font-primary;
    }
 }
 

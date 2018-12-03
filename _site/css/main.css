@@ -6531,7 +6531,9 @@ header {
 
 .hero {
   background-image: url("../img/asia-background-balance-784928.jpg");
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 110vh;
   display: inline-block;
   padding: 20px; }
@@ -6585,15 +6587,11 @@ h4 {
   font-family: "Open Sans", helvetica, arial, sans; }
 
 .about-landing {
-  background: url(../img/iceburg.jpeg);
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .about-landing h3 {
+  background-color: black;
+  height: 100vh; }
+  .about-landing h1 {
     text-align: center;
-    color: #cc6666; }
+    font-family: "Raleway", helvetica, sans; }
 
 .scroll {
   height: 100vh;
