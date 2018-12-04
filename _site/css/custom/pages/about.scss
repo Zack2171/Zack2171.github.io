@@ -1,16 +1,21 @@
  .about-landing {
    background-color: black;
+   background-image: url(../img/architecture-asia-bridge-441379.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
    height: 100vh;
 
    h1 {
      text-align: center;
      font-family: $font-primary;
+     color: $primary;
    }
 }
 
 .scroll {
   height: 100vh;
-  background-color: $primary;
+  background-color: #333333;
 
   h4 {
     text-align: center;

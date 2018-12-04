@@ -6588,14 +6588,19 @@ h4 {
 
 .about-landing {
   background-color: black;
+  background-image: url(../img/architecture-asia-bridge-441379.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh; }
   .about-landing h1 {
     text-align: center;
-    font-family: "Raleway", helvetica, sans; }
+    font-family: "Raleway", helvetica, sans;
+    color: #cc6666; }
 
 .scroll {
   height: 100vh;
-  background-color: #cc6666; }
+  background-color: #333333; }
   .scroll h4 {
     text-align: center; }
 
