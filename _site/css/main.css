@@ -6601,8 +6601,10 @@ h4 {
 .scroll {
   height: 100vh;
   background-color: #333333; }
-  .scroll h4 {
-    text-align: center; }
+  .scroll img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 .div-3 {
   background: url(../img/aspen.jpeg);
