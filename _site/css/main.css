@@ -6530,7 +6530,7 @@ header {
     transform: translate(-50%, 0); }
 
 .hero {
-  background-image: url("../img/asia-background-balance-784928.jpg");
+  background-image: url("../img/aquatic-beautiful-biology-920157.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6598,16 +6598,16 @@ h4 {
     font-family: "Raleway", helvetica, sans;
     color: #cc6666; }
 
-.scroll {
-  height: 100vh;
+.reflections {
   background-color: #333333; }
-  .scroll img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
+  .reflections img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px; }
 
 .div-3 {
-  background: url(../img/aspen.jpeg);
+  background: url(../img/architecture-asia-bridge-441379.jpg);
   height: 600px;
   background-attachment: fixed;
   background-position: center;
